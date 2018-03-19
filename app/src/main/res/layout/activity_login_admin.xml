@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellpc.collegetransport.LoginAdmin"
+    android:background="#1f2b92">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter userid"></android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="232dp"
+        android:layout_height="116dp"
+        android:onClick="submit"
+        android:background="@drawable/login"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="314dp"
+        android:layout_marginLeft="76dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/txtuserid"
+        android:layout_width="210dp"
+        android:hint="Enter UserID"
+        android:layout_height="44dp"
+        android:layout_marginLeft="87dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="#f5f6f7"
+        android:textColorHint="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="125dp" />
+
+    <EditText
+        android:id="@+id/txtuserpass"
+        android:layout_width="210dp"
+        android:layout_height="44dp"
+
+        android:hint="Enter UserPass"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="76dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="#f1f2f4"
+        android:textColorHint="#000000"/>
+
+</android.support.constraint.ConstraintLayout>
